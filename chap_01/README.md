@@ -65,6 +65,25 @@ Image {
 
 Please see windmill example.
 
+--------------------------------------------------------------------------------
+
+Core-Essential Modules
+
+The minimal set of Qt 5 modules to start QML programming.
+
+Module			Description
+Qt Core			Core non-graphical classes used by other modules
+Qt GUI			Base classes for graphical user interface (GUI) components. Includes OpenGL.
+Qt Multimedia		Classes for audio, video, radio and camera functionality.
+Qt Network		Classes to make network programming easier and more portable.
+Qt QML			Classes for QML and JavaScript languages.
+Qt Quick		declarative framework for building highly dynamic applications with custom user interfaces.
+Qt SQL	Classes 	for database integration using SQL.
+Qt Test	Classes 	for unit testing Qt applications and libraries.
+Qt WebKit		Classes for a WebKit2 based implementation and a new QML API. See also Qt WebKit Widgets in the add-on modules.
+Qt WebKit Widgets	WebKit1 and QWidget-based classes from Qt 4.
+Qt Widgets		Classes to extend Qt GUI with C++ widgets.
+
 
 
 
