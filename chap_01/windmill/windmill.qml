@@ -29,11 +29,11 @@ Image {
         id: wheel
         /* To place the pin wheel at the central location we use a complex
         property called anchor. Anchoring allows you to specify geometric
-        relations between parent and sibling objects.*/
+        relations between parent and sibling objects. */
         anchors.centerIn: parent
         source: "../windmill/images/pinwheel.png"
 
-        /*  An animation defines how a property change is distributed over a
+        /* An animation defines how a property change is distributed over a
         duration. To enable this we use an animation type called property
         behavior. The Behaviour does specify an animation for a defined property
         for every change applied to that property. In short every time the
