@@ -59,12 +59,16 @@ Rectangle {
     Text {
         id: label
 
-        x: 0; y: root.height - label.height
+        /* y: root.height - label.height */
+        x: 0; y: root.height - height
 
         /**/
         property int spacePresses: 0
         text: "Space pressed: " + spacePresses + " times."
         onTextChanged: console.log("Text changed to: ", text)
+        elide: Text.ElideMiddle
+        style: Text.Sunken
+        styleColor: '#FF4444'
 
         focus: true
         color: focus?"red":"black"
@@ -82,4 +86,3 @@ Rectangle {
     }
 
 }
-

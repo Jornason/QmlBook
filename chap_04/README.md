@@ -163,5 +163,57 @@ incremented bound properties will also be updated.
 
 --------------------------------------------------------------------------------
 
+# Basic Elements
+
+
+Elements can be grouped into visual and non-visual elements. A visual element
+(like the Rectangle) has a geometry and normally present an area on the screen.
+A non-visual element (like a Timer) provides general functionality, normally
+used to manipulate the visual elements.
+
+Currently we will focus on the fundamental visual elements, such as Item,
+Rectangle, Text, Image and MouseArea.
+
+
+### Item Element
+
+Item is the base element for all visual elements as such all other visual
+elements inherit from Item. It doesn’t paint anything by itself but defines all
+properties which are common across all visual elements:
+
+Geometry
+Layout handling
+Key handling
+Transformation
+Visual
+State definition
+
+
+The Item element is often used as a container for other elements, similar to the
+div element in HTML.
+
+
+### Rectangle element
+
+The Rectangle extends Item and adds a fill color to it. Additional it supports
+borders defined by border.color and border.width. To create rounded rectangles
+you can use the radius property.
+
+The named colors used are colors from the SVG color names
+(see http://www.w3.org/TR/css3-color/#svg-color). You can provide colors in QML
+in different ways the most common ways are as RGB string (‘#FF4444’) or as a
+color name (e.g. ‘white’).
+
+
+--------------------------------------------------------------------------------
+
+# Components
+
+
+
+
+
+
+
 
 
