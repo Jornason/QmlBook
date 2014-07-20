@@ -31,6 +31,7 @@ import QtQuick 2.0
 
 Item {
     id: root
+    /*
     width: 116; height: 26
 
     // export button properties
@@ -54,4 +55,5 @@ Item {
             root.clicked()
         }
     }
+    */
 }

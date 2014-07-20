@@ -32,7 +32,7 @@ import QtQuick 2.0
 Rectangle {
     width: 140
     height: 120
-
+/*
     // M1>>
     Rectangle { // our inlined button ui
         id: button
@@ -60,4 +60,5 @@ Rectangle {
         horizontalAlignment: Text.AlignHCenter
     }
     // <<M1
+    */
 }

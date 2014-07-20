@@ -32,6 +32,7 @@ import QtQuick 2.0
 
 Rectangle {
     id: root
+
     // export button properties
     property alias text: label.text
     signal clicked
@@ -51,6 +52,8 @@ Rectangle {
             root.clicked()
         }
     }
+
 }
 
 // <<M1
+
