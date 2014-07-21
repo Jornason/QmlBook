@@ -209,6 +209,11 @@ color name (e.g. ‘white’).
 
 # Components
 
+A file based component is created by placing a QML element in a file and give
+the file an element name (e.g. Button.qml). You can use the component like every
+other element from the QtQuick module, in our case you would use this in your
+code as Button { ... }.
+
 
 
 
