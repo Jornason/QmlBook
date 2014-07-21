@@ -215,6 +215,34 @@ other element from the QtQuick module, in our case you would use this in your
 code as Button { ... }.
 
 
+--------------------------------------------------------------------------------
+
+# Simple Transformations
+
+
+A transformation manipulates the geometry of an object. QML Items can in general
+be translated, rotated and scaled.
+
+A simple translation is done via changing the x,y position. A rotation is done
+using the rotation property. The value is provided indegrees (0 .. 360). A
+scaling is done using the scale property and a value <1 means the element is
+scaled down and >1 means the element is scaled up. The rotation and scaling does
+not change your geometry. The items x,y and width/height are still the same.
+Just the painting instructions are transformed.
+
+
+For the scaling and rotation operation we set smooth: true to enable
+anti-aliasing, which is switched off (same as the clipping property clip) for
+performance reasons. When you see in your own work some rasterized edges in your
+graphics, then probably you would like to switch smooth on.
+
+Elements which appear earlier in the code have a lower stacking order
+(called z-order). If you click long enough on rocket1 you will see it moves
+below rocket2. The z-order can also be manipulated by the z-property of an Item.
+
+Please remember: The order of elements in the document matters.
+
+
 
 
 
